@@ -22,8 +22,12 @@ const Header = () => {
   ];
   return (
     <header className="header">
-      {/* <img className="header__logo" src="/assets/logo.svg" alt="logo" /> */}
-      <Image className="header__logo" width={50} height={77} src="/assets/logo.svg" alt="logo" />
+      <Image
+        width={50}
+        height={77}
+        src="/assets/logo.svg"
+        alt="logo"
+      />
       <ul className="header__nav">
         {navLinks.map((link) => (
           <li key={link.id}>
